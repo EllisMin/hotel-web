@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styling */
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.8em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+/* Utility classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+/* Navbar */
+#nav-bar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#nav-bar a {
+  color: #fff;
+}
+
+/* Add float */
+#nav-bar h1 {
+  float: left;
+  padding-top: 18px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  float: right;
+}
+
+#nav-bar ul li {
+  float: left;
+}
+#nav-bar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.cur {
+  background: #444;
+  color: #f7c08c;
+}

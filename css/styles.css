@@ -77,6 +77,9 @@ p {
   background: #f7c08c;
   color: #333;
 }
+.clr {
+  clear: both;
+}
 
 /* Navbar */
 #nav-bar {
@@ -172,4 +175,12 @@ p {
  }
  .box i {
    margin-bottom: 10px;
+ }
+
+ /* Footer */
+ #main-footer {
+   text-align: center;
+   background: #444;
+   color: white;
+   padding: 20px;
  }

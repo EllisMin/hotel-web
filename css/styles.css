@@ -81,6 +81,9 @@ p {
 .clr {
   clear: both;
 }
+.l-heading {
+  font-size: 40px;
+}
 
 /* Padding top and bottom; padding y-axis */
 .py-1 {
@@ -205,6 +208,33 @@ p {
   display: block;
   width: 70%;
   margin: auto;
+
+  border-radius: 50%;
+}
+
+/* Reviews */
+#reviews {
+  height: 600px;
+  background: url("../../img/test-bg.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+#reviews h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 80px;
+}
+#reviews .review {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+
+  opacity: 0.85;
+}
+#reviews .review img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 /* Footer */

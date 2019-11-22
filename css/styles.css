@@ -27,6 +27,7 @@ h3 {
 p {
   margin: 10px 0;
 }
+
 /* Utility classes */
 .container {
   margin: auto;
@@ -81,6 +82,17 @@ p {
   clear: both;
 }
 
+/* Padding top and bottom; padding y-axis */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 12px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
 /* Navbar */
 #nav-bar {
   background: #333;
@@ -120,7 +132,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url('../../img/showcase.jpg') no-repeat center center/cover;
+  background: url("../../img/showcase.jpg") no-repeat center center/cover;
   height: 600px;
 }
 
@@ -167,20 +179,38 @@ p {
 }
 
 /* Features */
- .box {
-   float: left;
-   width: 33.3%;
-   padding: 50px;
-   text-align: center;
- }
- .box i {
-   margin-bottom: 10px;
- }
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
 
- /* Footer */
- #main-footer {
-   text-align: center;
-   background: #444;
-   color: white;
-   padding: 20px;
- }
+/* About Info */
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+/* Footer */
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: white;
+  padding: 20px;
+}
